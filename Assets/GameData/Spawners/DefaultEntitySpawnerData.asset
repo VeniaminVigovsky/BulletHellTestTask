@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b34b2aff7b5bfe84a91c36691f14820e, type: 3}
+  m_Name: DefaultEntitySpawnerData
+  m_EditorClassIdentifier: 
+  _timeBetweenSpawns: 1
+  _entityPrefab: {fileID: 5136420650072880886, guid: d4b7a1628eb102c418919bcaaff37230, type: 3}

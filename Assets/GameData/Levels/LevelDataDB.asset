@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c656d80340ca9994a81c2f07ed6f75db, type: 3}
+  m_Name: LevelDataDB
+  m_EditorClassIdentifier: 
+  _levelDataList:
+  - _levelID: 0
+    _asteroidSpeed: 333.4471
+    _timeBetweenSpawns: 0.6351104
+    _targetKillCount: 14
+    _currentKillCount: 14
+    _currentLevelStatus: 0
+    _playerCurrentHealth: 3
+  - _levelID: 1
+    _asteroidSpeed: 240.97507
+    _timeBetweenSpawns: 0.92262053
+    _targetKillCount: 17
+    _currentKillCount: 17
+    _currentLevelStatus: 1
+    _playerCurrentHealth: 3
+  - _levelID: 2
+    _asteroidSpeed: 419.77353
+    _timeBetweenSpawns: 0.9601276
+    _targetKillCount: 20
+    _currentKillCount: 0
+    _currentLevelStatus: 1
+    _playerCurrentHealth: 3
