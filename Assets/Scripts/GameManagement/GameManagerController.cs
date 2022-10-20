@@ -29,8 +29,7 @@ public class GameManagerController
                 var currentLevelData = LevelManager.CurrentLevelData;
                 if (currentLevelData != null)
                 {
-                    currentLevelData.CurrentLevelStatus = LevelData.LevelStatus.Failed;
-                    LevelManager.SetLevelData(null);
+                    currentLevelData.CurrentLevelStatus = LevelData.LevelStatus.Failed;                    
                 }
             });
         }

@@ -14,7 +14,7 @@ public class LevelData
         Finished,
         Failed,
         Started,
-        Unfinished
+        Unfinished        
     }
 
     public int LevelID => _levelID;
@@ -50,7 +50,11 @@ public class LevelData
     public LevelStatus CurrentLevelStatus
     {
         get => _currentLevelStatus;
-        set => _currentLevelStatus = value;
+        set 
+        {
+            _currentLevelStatus = value;
+            CurrentLevelStatusRx.Value = _currentLevelStatus;
+        } 
     }
     public int PlayerCurrentHealth
     {
@@ -71,6 +75,19 @@ public class LevelData
         }
     }
 
+    public ReactiveProperty<LevelStatus> CurrentLevelStatusRx
+    {
+        get
+        {
+            if (_currentLevelStatusRx == null)
+            {
+                _currentLevelStatusRx = new ReactiveProperty<LevelStatus>(_currentLevelStatus);
+            }
+
+            return _currentLevelStatusRx;
+        }
+    }
+
     [SerializeField] private int _levelID;
     [SerializeField] private float _asteroidSpeed = 250;
     [SerializeField] private float _timeBetweenSpawns = 1;
@@ -80,6 +97,7 @@ public class LevelData
     [SerializeField] private int _playerCurrentHealth;
 
     private ReactiveProperty<int> _currentKillCountRx;
+    private ReactiveProperty<LevelStatus> _currentLevelStatusRx;
 
     public LevelData(int levelID, float asteroidSpeed, float timeBetweenSpawns, int targetKillCount, int currentKillCount, LevelStatus currentLevelStatus, int playerCurrentHealth)
     {

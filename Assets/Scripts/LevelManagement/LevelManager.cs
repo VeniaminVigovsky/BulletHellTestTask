@@ -61,8 +61,7 @@ public static class LevelManager
                         nextLevelData.CurrentLevelStatus = LevelData.LevelStatus.Opened;
                     }
                 }
-
-                SetLevelData(null); 
+                
             });
         }
     }

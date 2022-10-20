@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelDataList:
   - _levelID: 0
-    _asteroidSpeed: 333.4471
-    _timeBetweenSpawns: 0.6351104
-    _targetKillCount: 14
-    _currentKillCount: 14
+    _asteroidSpeed: 321.47385
+    _timeBetweenSpawns: 0.5661459
+    _targetKillCount: 10
+    _currentKillCount: 11
     _currentLevelStatus: 0
     _playerCurrentHealth: 3
   - _levelID: 1
-    _asteroidSpeed: 240.97507
-    _timeBetweenSpawns: 0.92262053
-    _targetKillCount: 17
-    _currentKillCount: 17
+    _asteroidSpeed: 316.27933
+    _timeBetweenSpawns: 0.77872413
+    _targetKillCount: 15
+    _currentKillCount: 15
     _currentLevelStatus: 1
-    _playerCurrentHealth: 3
+    _playerCurrentHealth: 1
   - _levelID: 2
-    _asteroidSpeed: 419.77353
-    _timeBetweenSpawns: 0.9601276
-    _targetKillCount: 20
-    _currentKillCount: 0
+    _asteroidSpeed: 233.08255
+    _timeBetweenSpawns: 0.43210697
+    _targetKillCount: 12
+    _currentKillCount: 12
     _currentLevelStatus: 1
     _playerCurrentHealth: 3
